@@ -1,1 +1,1 @@
-web: gnicorn cat:app --log-file=-
+web: gunicorn cat:app --log-file=-
